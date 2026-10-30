@@ -1,0 +1,18 @@
+export const regions = [
+  { id: 'johor', name: 'Johor', capital: 'Johor Bahru', latitude: 1.4927, longitude: 103.7414, group: 'Peninsular Malaysia' },
+  { id: 'kedah', name: 'Kedah', capital: 'Alor Setar', latitude: 6.1248, longitude: 100.3678, group: 'Peninsular Malaysia' },
+  { id: 'kelantan', name: 'Kelantan', capital: 'Kota Bharu', latitude: 6.1254, longitude: 102.2381, group: 'Peninsular Malaysia' },
+  { id: 'melaka', name: 'Melaka', capital: 'Melaka City', latitude: 2.1896, longitude: 102.2501, group: 'Peninsular Malaysia' },
+  { id: 'negeri-sembilan', name: 'Negeri Sembilan', capital: 'Seremban', latitude: 2.7258, longitude: 101.9424, group: 'Peninsular Malaysia' },
+  { id: 'pahang', name: 'Pahang', capital: 'Kuantan', latitude: 3.8077, longitude: 103.326, group: 'Peninsular Malaysia' },
+  { id: 'perak', name: 'Perak', capital: 'Ipoh', latitude: 4.5975, longitude: 101.0901, group: 'Peninsular Malaysia' },
+  { id: 'perlis', name: 'Perlis', capital: 'Kangar', latitude: 6.4414, longitude: 100.1986, group: 'Peninsular Malaysia' },
+  { id: 'pulau-pinang', name: 'Pulau Pinang', capital: 'George Town', latitude: 5.4141, longitude: 100.3288, group: 'Peninsular Malaysia' },
+  { id: 'selangor', name: 'Selangor', capital: 'Shah Alam', latitude: 3.0733, longitude: 101.5185, group: 'Peninsular Malaysia' },
+  { id: 'terengganu', name: 'Terengganu', capital: 'Kuala Terengganu', latitude: 5.3302, longitude: 103.1408, group: 'Peninsular Malaysia' },
+  { id: 'sabah', name: 'Sabah', capital: 'Kota Kinabalu', latitude: 5.9804, longitude: 116.0735, group: 'East Malaysia' },
+  { id: 'sarawak', name: 'Sarawak', capital: 'Kuching', latitude: 1.5535, longitude: 110.3593, group: 'East Malaysia' },
+  { id: 'kuala-lumpur', name: 'Kuala Lumpur', capital: 'Kuala Lumpur', latitude: 3.139, longitude: 101.687, group: 'Federal Territory' },
+  { id: 'putrajaya', name: 'Putrajaya', capital: 'Putrajaya', latitude: 2.9264, longitude: 101.6964, group: 'Federal Territory' },
+  { id: 'labuan', name: 'Labuan', capital: 'Victoria', latitude: 5.2831, longitude: 115.2308, group: 'Federal Territory' },
+]
