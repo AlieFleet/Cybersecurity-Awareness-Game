@@ -1,0 +1,106 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #183b35;
+  background: #f7f8f5;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+.haze-page {
+  min-height: 100vh;
+}
+
+.aqi-map-label.leaflet-tooltip {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #173b34;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 0;
+}
+
+.aqi-map-label.leaflet-tooltip::before {
+  display: none;
+}
+
+.haze-page select:focus-visible,
+.haze-page button:focus-visible,
+.haze-page a:focus-visible,
+.haze-page input:focus-visible {
+  outline: 3px solid #5c9b74;
+  outline-offset: 3px;
+}
+
+.haze-page .select {
+  min-height: 3.25rem;
+  border-radius: 0.875rem;
+  background-color: #fff;
+}
+
+.tips-carousel-copy {
+  opacity: 0;
+  transform: translateY(calc(-50% + 8px));
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+
+.tips-carousel-copy.is-visible {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.tips-text-shadow {
+  text-shadow: 0 2px 8px rgb(0 0 0 / 75%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tips-carousel-copy {
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
